@@ -1,0 +1,10 @@
+# Visual Studio Code
+.vscode
+
+# Python
+*.egg-info
+__pycache__
+
+# Unit tests.
+test
+requirements_test.txt
