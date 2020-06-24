@@ -1,5 +1,6 @@
 from levbogames.environment.paths import levbopaths
 from pyglet.resource import Loader
+from pyglet import image
 
 
 class Resources:
@@ -37,3 +38,13 @@ class Resources:
             directory (str, optional): directorio donde se encuentran los sprites. Defaults to ''.
         """
         self.append_path(path if path and path.strip() != '' else levbopaths.SPRITES_RESOURCE, directory)
+
+
+    def get_image(self, file_name):
+        """
+        [summary]
+
+        Args:
+            file_name ([type]): [description]
+        """
+        return self.__loader.image(file_name)

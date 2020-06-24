@@ -16,7 +16,7 @@ class LevboPaths:
     @property
     def RESOURCES_PATH(self):
         """
-        Path donde se ecneuntran los recursos de levbogames. 
+        Path donde se encuentran los recursos de levbogames.
         
         Se utiliza la variable de entorno LEVBOGAMES para ubicarse en el directorio principal de levbogames, si esta 
         variable no se ecuentra definida se asume el directorio de ejecución (.).
